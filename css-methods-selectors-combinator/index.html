@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Methods for Adding CSS</title>
+    <style>
+      .internal {
+        background-color: green;
+        color: white;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="external">Style me via the external method!</div>
+    <p class="internal">I would like to be styled with the internal method, please.</p>
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
+    
+    <li>
+      <ol class="first">I'm first element</ol>
+      <ol id="second">I'm second element</ol>
+      <ol class="third">I'm third element</ol>
+      <ol class="fourth">I'm fourth element</ol>
+      <ol class="first">I'm fifth element</ol>
+    </li>
+
+    <button class="button1">Click Me!</button>
+    <button class="button2">No, Click Me!</button>
+
+    <img class="avatar proportioned" src="https://github.com/TheOdinProject/css-exercises/blob/main/foundations/04-chaining-selectors/pexels-katho-mutodo-8434791.jpg?raw=true" alt="">
+    <img class="avatar distorted" src="https://github.com/TheOdinProject/css-exercises/blob/main/foundations/04-chaining-selectors/pexels-andrea-piacquadio-3777931.jpg?raw=true" alt="">
+    <img class="original proportioned" src="https://github.com/TheOdinProject/css-exercises/blob/main/foundations/04-chaining-selectors/pexels-katho-mutodo-8434791.jpg?raw=true" alt="">
+    <img class="original distorted" src="https://github.com/TheOdinProject/css-exercises/blob/main/foundations/04-chaining-selectors/pexels-andrea-piacquadio-3777931.jpg?raw=true" alt="">
+
+    <div class="container">
+      <p class="text">This should be styled.</p>
+    </div>
+    <p class="text">This should be unstyled.</p>
+    <p class="text">This should be unstyled.</p>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+      <p class="text">This should be styled.</p>
+    </div>
+  </body>
+</html>
