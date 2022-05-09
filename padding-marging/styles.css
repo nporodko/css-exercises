@@ -1,0 +1,70 @@
+body {
+  background-color: lightgrey;
+}
+.one {
+  background-color: pink;
+  border: 2px solid blue;
+  padding: 32px;
+  margin: 12px;;
+}
+
+.two {
+  background-color: blue;
+  border: 2px solid purple;
+}
+
+.three {
+  background-color: orange;
+  border: 2px solid red;
+  padding: 32px;
+  margin: 48px;
+  margin-left: 950px;
+}
+
+.card {
+  background-color: lightblue;
+  margin-left: 530px;
+  margin-right: 530px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 4px solid white;
+  border-top: 8px solid white;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+}
+
+.content {
+ padding-left: 8px;
+ padding-right: 8px;
+ padding-top: 16px;
+ padding-bottom: 16px;
+ border-bottom: 4px solid white;
+ border-top: 4px solid white;
+ border-left: 8px solid white;
+ border-right: 8px solid white;
+}
+
+.button-container {
+  padding: 8px;
+  border-bottom: 8px solid white;
+  border-top: 4px solid white;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+  text-align: center;
+}
+
+button {
+ display: block;
+ border: none;
+ padding-left: 24px;
+ padding-right: 24px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ margin-left: 100px;
+}
