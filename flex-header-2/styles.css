@@ -1,0 +1,32 @@
+.header {
+  background-color: blanchedalmond;
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+li {
+   display: inline;
+}
+
+.right {
+  display:flex;
+  gap: 16px;
+  margin: auto;
+  margin-right: 0px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
